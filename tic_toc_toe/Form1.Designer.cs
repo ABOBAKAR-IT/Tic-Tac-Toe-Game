@@ -44,13 +44,11 @@
             this.bt4 = new System.Windows.Forms.Button();
             this.bt7 = new System.Windows.Forms.Button();
             this.bt9 = new System.Windows.Forms.Button();
-            this.rb1 = new System.Windows.Forms.RadioButton();
-            this.rb2 = new System.Windows.Forms.RadioButton();
             this.SuspendLayout();
             // 
             // sbt
             // 
-            this.sbt.Location = new System.Drawing.Point(145, 148);
+            this.sbt.Location = new System.Drawing.Point(148, 125);
             this.sbt.Name = "sbt";
             this.sbt.Size = new System.Drawing.Size(75, 23);
             this.sbt.TabIndex = 0;
@@ -97,22 +95,22 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(54, 86);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(51, 13);
+            this.label3.Size = new System.Drawing.Size(62, 13);
             this.label3.TabIndex = 5;
-            this.label3.Text = "Select \'X\'";
+            this.label3.Text = "Selectes \'X\'";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(232, 86);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(50, 13);
+            this.label4.Size = new System.Drawing.Size(64, 13);
             this.label4.TabIndex = 6;
-            this.label4.Text = "Select \'o\'";
+            this.label4.Text = "Selected \'O\'";
             // 
             // bt6
             // 
-            this.bt6.Location = new System.Drawing.Point(209, 240);
+            this.bt6.Location = new System.Drawing.Point(213, 221);
             this.bt6.Name = "bt6";
             this.bt6.Size = new System.Drawing.Size(44, 31);
             this.bt6.TabIndex = 11;
@@ -121,7 +119,7 @@
             // 
             // bt1
             // 
-            this.bt1.Location = new System.Drawing.Point(109, 203);
+            this.bt1.Location = new System.Drawing.Point(113, 184);
             this.bt1.Name = "bt1";
             this.bt1.Size = new System.Drawing.Size(44, 31);
             this.bt1.TabIndex = 12;
@@ -130,7 +128,7 @@
             // 
             // bt2
             // 
-            this.bt2.Location = new System.Drawing.Point(159, 203);
+            this.bt2.Location = new System.Drawing.Point(163, 184);
             this.bt2.Name = "bt2";
             this.bt2.Size = new System.Drawing.Size(44, 31);
             this.bt2.TabIndex = 13;
@@ -139,7 +137,7 @@
             // 
             // bt3
             // 
-            this.bt3.Location = new System.Drawing.Point(209, 203);
+            this.bt3.Location = new System.Drawing.Point(213, 184);
             this.bt3.Name = "bt3";
             this.bt3.Size = new System.Drawing.Size(44, 31);
             this.bt3.TabIndex = 14;
@@ -148,7 +146,7 @@
             // 
             // bt5
             // 
-            this.bt5.Location = new System.Drawing.Point(159, 240);
+            this.bt5.Location = new System.Drawing.Point(163, 221);
             this.bt5.Name = "bt5";
             this.bt5.Size = new System.Drawing.Size(44, 31);
             this.bt5.TabIndex = 15;
@@ -157,7 +155,7 @@
             // 
             // bt8
             // 
-            this.bt8.Location = new System.Drawing.Point(159, 277);
+            this.bt8.Location = new System.Drawing.Point(163, 258);
             this.bt8.Name = "bt8";
             this.bt8.Size = new System.Drawing.Size(44, 31);
             this.bt8.TabIndex = 16;
@@ -166,7 +164,7 @@
             // 
             // bt4
             // 
-            this.bt4.Location = new System.Drawing.Point(109, 240);
+            this.bt4.Location = new System.Drawing.Point(113, 221);
             this.bt4.Name = "bt4";
             this.bt4.Size = new System.Drawing.Size(44, 31);
             this.bt4.TabIndex = 17;
@@ -175,7 +173,7 @@
             // 
             // bt7
             // 
-            this.bt7.Location = new System.Drawing.Point(109, 277);
+            this.bt7.Location = new System.Drawing.Point(113, 258);
             this.bt7.Name = "bt7";
             this.bt7.Size = new System.Drawing.Size(44, 31);
             this.bt7.TabIndex = 18;
@@ -184,44 +182,18 @@
             // 
             // bt9
             // 
-            this.bt9.Location = new System.Drawing.Point(206, 277);
+            this.bt9.Location = new System.Drawing.Point(210, 258);
             this.bt9.Name = "bt9";
             this.bt9.Size = new System.Drawing.Size(47, 31);
             this.bt9.TabIndex = 19;
             this.bt9.UseVisualStyleBackColor = true;
             this.bt9.Click += new System.EventHandler(this.Bt9_Click);
             // 
-            // rb1
-            // 
-            this.rb1.AutoSize = true;
-            this.rb1.Location = new System.Drawing.Point(55, 102);
-            this.rb1.Name = "rb1";
-            this.rb1.Size = new System.Drawing.Size(85, 17);
-            this.rb1.TabIndex = 22;
-            this.rb1.TabStop = true;
-            this.rb1.Text = "radioButton1";
-            this.rb1.UseVisualStyleBackColor = true;
-            this.rb1.CheckedChanged += new System.EventHandler(this.RadioButton1_CheckedChanged);
-            // 
-            // rb2
-            // 
-            this.rb2.AutoSize = true;
-            this.rb2.Location = new System.Drawing.Point(232, 102);
-            this.rb2.Name = "rb2";
-            this.rb2.Size = new System.Drawing.Size(85, 17);
-            this.rb2.TabIndex = 23;
-            this.rb2.TabStop = true;
-            this.rb2.Text = "radioButton2";
-            this.rb2.UseVisualStyleBackColor = true;
-            this.rb2.CheckedChanged += new System.EventHandler(this.RadioButton2_CheckedChanged);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(374, 450);
-            this.Controls.Add(this.rb2);
-            this.Controls.Add(this.rb1);
             this.Controls.Add(this.bt9);
             this.Controls.Add(this.bt7);
             this.Controls.Add(this.bt4);
@@ -264,8 +236,6 @@
         private System.Windows.Forms.Button bt4;
         private System.Windows.Forms.Button bt7;
         private System.Windows.Forms.Button bt9;
-        private System.Windows.Forms.RadioButton rb1;
-        private System.Windows.Forms.RadioButton rb2;
     }
 }
 
