@@ -189,6 +189,7 @@
             this.bt9.Size = new System.Drawing.Size(47, 31);
             this.bt9.TabIndex = 19;
             this.bt9.UseVisualStyleBackColor = true;
+            this.bt9.Click += new System.EventHandler(this.Bt9_Click);
             // 
             // rb1
             // 
