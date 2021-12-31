@@ -34,6 +34,7 @@ namespace tic_toc_toe
         {
             if (plr_1 == true)
             {
+                
                 if (plr_1_value[0] == true)
                 {
 
@@ -43,6 +44,7 @@ namespace tic_toc_toe
                     plr_1_value[0] = true;
                     bt1.Text = "X";
                     plr_1 = false;
+                    lb5.Text = "Play By " + plr_2_name;
                     if ((plr_1_value[0]==true && plr_1_value[1] == true && plr_1_value[2] == true)|| (plr_1_value[3] == true && plr_1_value[4] == true && plr_1_value[5] == true)|| (plr_1_value[6] == true && plr_1_value[7] == true && plr_1_value[8] == true)|| (plr_1_value[0] == true && plr_1_value[3] == true && plr_1_value[6] == true)|| (plr_1_value[0] == true && plr_1_value[4] == true && plr_1_value[8] == true)|| (plr_1_value[4] == true && plr_1_value[1] == true && plr_1_value[7] == true)|| (plr_1_value[0] == true && plr_1_value[1] == true && plr_1_value[2] == true)|| (plr_1_value[5] == true && plr_1_value[8] == true && plr_1_value[2] == true)|| (plr_1_value[6] == true && plr_1_value[4] == true && plr_1_value[2] == true))
                     {
                         MessageBox.Show(plr_1_name + " Win The game");
@@ -60,6 +62,7 @@ namespace tic_toc_toe
                     plr_1_value[0] = true;
                     bt1.Text = "O";
                     plr_1 = true;
+                    lb5.Text = "Play By " + plr_1_name;
                     if ((plr_2_value[0] == true && plr_2_value[1] == true && plr_2_value[2] == true) || (plr_2_value[3] == true && plr_2_value[4] == true && plr_2_value[5] == true) || (plr_2_value[6] == true && plr_2_value[7] == true && plr_2_value[8] == true) || (plr_2_value[0] == true && plr_2_value[3] == true && plr_2_value[6] == true) || (plr_2_value[0] == true && plr_2_value[4] == true && plr_2_value[8] == true) || (plr_2_value[4] == true && plr_2_value[1] == true && plr_2_value[7] == true) || (plr_2_value[0] == true && plr_2_value[1] == true && plr_2_value[2] == true) || (plr_2_value[5] == true && plr_2_value[8] == true && plr_2_value[2] == true) || (plr_2_value[6] == true && plr_2_value[4] == true && plr_2_value[2] == true))
                     {
                         MessageBox.Show(plr_2_name + " Win The game");
@@ -81,6 +84,7 @@ namespace tic_toc_toe
                     plr_1_value[7] = true;
                     bt8.Text = "X";
                     plr_1 = false;
+                    lb5.Text = "Play By " + plr_2_name;
                     if ((plr_1_value[0] == true && plr_1_value[1] == true && plr_1_value[2] == true) || (plr_1_value[3] == true && plr_1_value[4] == true && plr_1_value[5] == true) || (plr_1_value[6] == true && plr_1_value[7] == true && plr_1_value[8] == true) || (plr_1_value[0] == true && plr_1_value[3] == true && plr_1_value[6] == true) || (plr_1_value[0] == true && plr_1_value[4] == true && plr_1_value[8] == true) || (plr_1_value[4] == true && plr_1_value[1] == true && plr_1_value[7] == true) || (plr_1_value[0] == true && plr_1_value[1] == true && plr_1_value[2] == true) || (plr_1_value[5] == true && plr_1_value[8] == true && plr_1_value[2] == true) || (plr_1_value[6] == true && plr_1_value[4] == true && plr_1_value[2] == true))
                     {
                         MessageBox.Show(plr_1_name + " Win The game");
@@ -98,6 +102,7 @@ namespace tic_toc_toe
                     plr_2_value[7] = true;
                     bt8.Text = "O";
                     plr_1 = true;
+                    lb5.Text = "Play By " + plr_1_name;
                     if ((plr_2_value[0] == true && plr_2_value[1] == true && plr_2_value[2] == true) || (plr_2_value[3] == true && plr_2_value[4] == true && plr_2_value[5] == true) || (plr_2_value[6] == true && plr_2_value[7] == true && plr_2_value[8] == true) || (plr_2_value[0] == true && plr_2_value[3] == true && plr_2_value[6] == true) || (plr_2_value[0] == true && plr_2_value[4] == true && plr_2_value[8] == true) || (plr_2_value[4] == true && plr_2_value[1] == true && plr_2_value[7] == true) || (plr_2_value[0] == true && plr_2_value[1] == true && plr_2_value[2] == true) || (plr_2_value[5] == true && plr_2_value[8] == true && plr_2_value[2] == true) || (plr_2_value[6] == true && plr_2_value[4] == true && plr_2_value[2] == true))
                     {
                         MessageBox.Show(plr_2_name + " Win The game");
@@ -119,6 +124,7 @@ namespace tic_toc_toe
                     plr_1_value[6] = true;
                     bt7.Text = "X";
                     plr_1 = false;
+                    lb5.Text = "Play By " + plr_2_name;
                     if ((plr_1_value[0] == true && plr_1_value[1] == true && plr_1_value[2] == true) || (plr_1_value[3] == true && plr_1_value[4] == true && plr_1_value[5] == true) || (plr_1_value[6] == true && plr_1_value[7] == true && plr_1_value[8] == true) || (plr_1_value[0] == true && plr_1_value[3] == true && plr_1_value[6] == true) || (plr_1_value[0] == true && plr_1_value[4] == true && plr_1_value[8] == true) || (plr_1_value[4] == true && plr_1_value[1] == true && plr_1_value[7] == true) || (plr_1_value[0] == true && plr_1_value[1] == true && plr_1_value[2] == true) || (plr_1_value[5] == true && plr_1_value[8] == true && plr_1_value[2] == true) || (plr_1_value[6] == true && plr_1_value[4] == true && plr_1_value[2] == true))
                     {
                         MessageBox.Show(plr_1_name + " Win The game");
@@ -136,6 +142,7 @@ namespace tic_toc_toe
                     plr_2_value[6] = true;
                     bt7.Text = "O";
                     plr_1 = true;
+                    lb5.Text = "Play By " + plr_1_name;
                     if ((plr_2_value[0] == true && plr_2_value[1] == true && plr_2_value[2] == true) || (plr_2_value[3] == true && plr_2_value[4] == true && plr_2_value[5] == true) || (plr_2_value[6] == true && plr_2_value[7] == true && plr_2_value[8] == true) || (plr_2_value[0] == true && plr_2_value[3] == true && plr_2_value[6] == true) || (plr_2_value[0] == true && plr_2_value[4] == true && plr_2_value[8] == true) || (plr_2_value[4] == true && plr_2_value[1] == true && plr_2_value[7] == true) || (plr_2_value[0] == true && plr_2_value[1] == true && plr_2_value[2] == true) || (plr_2_value[5] == true && plr_2_value[8] == true && plr_2_value[2] == true) || (plr_2_value[6] == true && plr_2_value[4] == true && plr_2_value[2] == true))
                     {
                         MessageBox.Show(plr_2_name + " Win The game");
@@ -157,6 +164,7 @@ namespace tic_toc_toe
                     plr_1_value[3] = true;
                     bt4.Text = "X";
                     plr_1 = false;
+                    lb5.Text = "Play By " + plr_2_name;
                     if ((plr_1_value[0] == true && plr_1_value[1] == true && plr_1_value[2] == true) || (plr_1_value[3] == true && plr_1_value[4] == true && plr_1_value[5] == true) || (plr_1_value[6] == true && plr_1_value[7] == true && plr_1_value[8] == true) || (plr_1_value[0] == true && plr_1_value[3] == true && plr_1_value[6] == true) || (plr_1_value[0] == true && plr_1_value[4] == true && plr_1_value[8] == true) || (plr_1_value[4] == true && plr_1_value[1] == true && plr_1_value[7] == true) || (plr_1_value[0] == true && plr_1_value[1] == true && plr_1_value[2] == true) || (plr_1_value[5] == true && plr_1_value[8] == true && plr_1_value[2] == true) || (plr_1_value[6] == true && plr_1_value[4] == true && plr_1_value[2] == true))
                     {
                         MessageBox.Show(plr_1_name + " Win The game");
@@ -174,6 +182,7 @@ namespace tic_toc_toe
                     plr_2_value[3] = true;
                     bt4.Text = "O";
                     plr_1 = true;
+                    lb5.Text = "Play By " + plr_1_name;
                     if ((plr_2_value[0] == true && plr_2_value[1] == true && plr_2_value[2] == true) || (plr_2_value[3] == true && plr_2_value[4] == true && plr_2_value[5] == true) || (plr_2_value[6] == true && plr_2_value[7] == true && plr_2_value[8] == true) || (plr_2_value[0] == true && plr_2_value[3] == true && plr_2_value[6] == true) || (plr_2_value[0] == true && plr_2_value[4] == true && plr_2_value[8] == true) || (plr_2_value[4] == true && plr_2_value[1] == true && plr_2_value[7] == true) || (plr_2_value[0] == true && plr_2_value[1] == true && plr_2_value[2] == true) || (plr_2_value[5] == true && plr_2_value[8] == true && plr_2_value[2] == true) || (plr_2_value[6] == true && plr_2_value[4] == true && plr_2_value[2] == true))
                     {
                         MessageBox.Show(plr_2_name + " Win The game");
@@ -208,8 +217,8 @@ namespace tic_toc_toe
             plr_2_name = tb1.Text;
             plr_1_logo = 'X';
             plr_2_logo = 'O';
-          //  MessageBox.Show("Player 1 name " + plr_1_name + "\n Player 2 name " + plr_2_name);
-            MessageBox.Show("First play by " + plr_1_name );
+            //  MessageBox.Show("Player 1 name " + plr_1_name + "\n Player 2 name " + plr_2_name);
+            lb5.Text = "First Play By " + plr_1_name;
 
         }
 
@@ -225,6 +234,7 @@ namespace tic_toc_toe
                 {
                     plr_1_value[1] = true;
                     bt2.Text = "X";
+                    lb5.Text = "Play By " + plr_2_name;
                     plr_1 = false;
                     if ((plr_1_value[0] == true && plr_1_value[1] == true && plr_1_value[2] == true) || (plr_1_value[3] == true && plr_1_value[4] == true && plr_1_value[5] == true) || (plr_1_value[6] == true && plr_1_value[7] == true && plr_1_value[8] == true) || (plr_1_value[0] == true && plr_1_value[3] == true && plr_1_value[6] == true) || (plr_1_value[0] == true && plr_1_value[4] == true && plr_1_value[8] == true) || (plr_1_value[4] == true && plr_1_value[1] == true && plr_1_value[7] == true) || (plr_1_value[0] == true && plr_1_value[1] == true && plr_1_value[2] == true) || (plr_1_value[5] == true && plr_1_value[8] == true && plr_1_value[2] == true) || (plr_1_value[6] == true && plr_1_value[4] == true && plr_1_value[2] == true))
                     {
@@ -243,6 +253,7 @@ namespace tic_toc_toe
                     plr_2_value[1] = true;
                     bt2.Text = "O";
                     plr_1 = true;
+                    lb5.Text = "Play By " + plr_1_name;
                     if ((plr_2_value[0] == true && plr_2_value[1] == true && plr_2_value[2] == true) || (plr_2_value[3] == true && plr_2_value[4] == true && plr_2_value[5] == true) || (plr_2_value[6] == true && plr_2_value[7] == true && plr_2_value[8] == true) || (plr_2_value[0] == true && plr_2_value[3] == true && plr_2_value[6] == true) || (plr_2_value[0] == true && plr_2_value[4] == true && plr_2_value[8] == true) || (plr_2_value[4] == true && plr_2_value[1] == true && plr_2_value[7] == true) || (plr_2_value[0] == true && plr_2_value[1] == true && plr_2_value[2] == true) || (plr_2_value[5] == true && plr_2_value[8] == true && plr_2_value[2] == true) || (plr_2_value[6] == true && plr_2_value[4] == true && plr_2_value[2] == true))
                     {
                         MessageBox.Show(plr_2_name + " Win The game");
@@ -264,6 +275,7 @@ namespace tic_toc_toe
                     plr_1_value[2] = true;
                     bt3.Text = "X";
                     plr_1 = false;
+                    lb5.Text = "Play By " + plr_2_name;
                     if ((plr_1_value[0] == true && plr_1_value[1] == true && plr_1_value[2] == true) || (plr_1_value[3] == true && plr_1_value[4] == true && plr_1_value[5] == true) || (plr_1_value[6] == true && plr_1_value[7] == true && plr_1_value[8] == true) || (plr_1_value[0] == true && plr_1_value[3] == true && plr_1_value[6] == true) || (plr_1_value[0] == true && plr_1_value[4] == true && plr_1_value[8] == true) || (plr_1_value[4] == true && plr_1_value[1] == true && plr_1_value[7] == true) || (plr_1_value[0] == true && plr_1_value[1] == true && plr_1_value[2] == true) || (plr_1_value[5] == true && plr_1_value[8] == true && plr_1_value[2] == true) || (plr_1_value[6] == true && plr_1_value[4] == true && plr_1_value[2] == true))
                     {
                         MessageBox.Show(plr_1_name + " Win The game");
@@ -281,6 +293,7 @@ namespace tic_toc_toe
                     plr_2_value[2] = true;
                     bt3.Text = "O";
                     plr_1 = true;
+                    lb5.Text = "Play By " + plr_1_name;
                     if ((plr_2_value[0] == true && plr_2_value[1] == true && plr_2_value[2] == true) || (plr_2_value[3] == true && plr_2_value[4] == true && plr_2_value[5] == true) || (plr_2_value[6] == true && plr_2_value[7] == true && plr_2_value[8] == true) || (plr_2_value[0] == true && plr_2_value[3] == true && plr_2_value[6] == true) || (plr_2_value[0] == true && plr_2_value[4] == true && plr_2_value[8] == true) || (plr_2_value[4] == true && plr_2_value[1] == true && plr_2_value[7] == true) || (plr_2_value[0] == true && plr_2_value[1] == true && plr_2_value[2] == true) || (plr_2_value[5] == true && plr_2_value[8] == true && plr_2_value[2] == true) || (plr_2_value[6] == true && plr_2_value[4] == true && plr_2_value[2] == true))
                     {
                         MessageBox.Show(plr_2_name + " Win The game");
@@ -302,6 +315,7 @@ namespace tic_toc_toe
                     plr_1_value[4] = true;
                     bt5.Text = "X";
                     plr_1 = false;
+                    lb5.Text = "Play By " + plr_2_name;
                     if ((plr_1_value[0] == true && plr_1_value[1] == true && plr_1_value[2] == true) || (plr_1_value[3] == true && plr_1_value[4] == true && plr_1_value[5] == true) || (plr_1_value[6] == true && plr_1_value[7] == true && plr_1_value[8] == true) || (plr_1_value[0] == true && plr_1_value[3] == true && plr_1_value[6] == true) || (plr_1_value[0] == true && plr_1_value[4] == true && plr_1_value[8] == true) || (plr_1_value[4] == true && plr_1_value[1] == true && plr_1_value[7] == true) || (plr_1_value[0] == true && plr_1_value[1] == true && plr_1_value[2] == true) || (plr_1_value[5] == true && plr_1_value[8] == true && plr_1_value[2] == true) || (plr_1_value[6] == true && plr_1_value[4] == true && plr_1_value[2] == true))
                     {
                         MessageBox.Show(plr_1_name + " Win The game");
@@ -319,6 +333,7 @@ namespace tic_toc_toe
                     plr_2_value[4] = true;
                     bt5.Text = "O";
                     plr_1 = true;
+                    lb5.Text = "Play By " + plr_1_name;
                     if ((plr_2_value[0] == true && plr_2_value[1] == true && plr_2_value[2] == true) || (plr_2_value[3] == true && plr_2_value[4] == true && plr_2_value[5] == true) || (plr_2_value[6] == true && plr_2_value[7] == true && plr_2_value[8] == true) || (plr_2_value[0] == true && plr_2_value[3] == true && plr_2_value[6] == true) || (plr_2_value[0] == true && plr_2_value[4] == true && plr_2_value[8] == true) || (plr_2_value[4] == true && plr_2_value[1] == true && plr_2_value[7] == true) || (plr_2_value[0] == true && plr_2_value[1] == true && plr_2_value[2] == true) || (plr_2_value[5] == true && plr_2_value[8] == true && plr_2_value[2] == true) || (plr_2_value[6] == true && plr_2_value[4] == true && plr_2_value[2] == true))
                     {
                         MessageBox.Show(plr_2_name + " Win The game");
@@ -340,6 +355,7 @@ namespace tic_toc_toe
                     plr_1_value[8] = true;
                     bt9.Text = "X";
                     plr_1 = false;
+                    lb5.Text = "Play By " + plr_2_name;
                     if ((plr_1_value[0] == true && plr_1_value[1] == true && plr_1_value[2] == true) || (plr_1_value[3] == true && plr_1_value[4] == true && plr_1_value[5] == true) || (plr_1_value[6] == true && plr_1_value[7] == true && plr_1_value[8] == true) || (plr_1_value[0] == true && plr_1_value[3] == true && plr_1_value[6] == true) || (plr_1_value[0] == true && plr_1_value[4] == true && plr_1_value[8] == true) || (plr_1_value[4] == true && plr_1_value[1] == true && plr_1_value[7] == true) || (plr_1_value[0] == true && plr_1_value[1] == true && plr_1_value[2] == true) || (plr_1_value[5] == true && plr_1_value[8] == true && plr_1_value[2] == true) || (plr_1_value[6] == true && plr_1_value[4] == true && plr_1_value[2] == true))
                     {
                         MessageBox.Show(plr_1_name + " Win The game");
@@ -357,12 +373,18 @@ namespace tic_toc_toe
                     plr_2_value[8] = true;
                     bt9.Text = "O";
                     plr_1 = true;
+                    lb5.Text = "Play By " + plr_1_name;
                     if ((plr_2_value[0] == true && plr_2_value[1] == true && plr_2_value[2] == true) || (plr_2_value[3] == true && plr_2_value[4] == true && plr_2_value[5] == true) || (plr_2_value[6] == true && plr_2_value[7] == true && plr_2_value[8] == true) || (plr_2_value[0] == true && plr_2_value[3] == true && plr_2_value[6] == true) || (plr_2_value[0] == true && plr_2_value[4] == true && plr_2_value[8] == true) || (plr_2_value[4] == true && plr_2_value[1] == true && plr_2_value[7] == true) || (plr_2_value[0] == true && plr_2_value[1] == true && plr_2_value[2] == true) || (plr_2_value[5] == true && plr_2_value[8] == true && plr_2_value[2] == true) || (plr_2_value[6] == true && plr_2_value[4] == true && plr_2_value[2] == true))
                     {
                         MessageBox.Show(plr_2_name + " Win The game");
                     }
                 }
             }
+        }
+
+        private void Lb5_Click(object sender, EventArgs e)
+        {
+
         }
 
         private void Bt6_Click(object sender, EventArgs e)
@@ -378,6 +400,7 @@ namespace tic_toc_toe
                     plr_1_value[5] = true;
                     bt6.Text = "X";
                     plr_1 = false;
+                    lb5.Text = "Play By " + plr_2_name;
                     if ((plr_1_value[0] == true && plr_1_value[1] == true && plr_1_value[2] == true) || (plr_1_value[3] == true && plr_1_value[4] == true && plr_1_value[5] == true) || (plr_1_value[6] == true && plr_1_value[7] == true && plr_1_value[8] == true) || (plr_1_value[0] == true && plr_1_value[3] == true && plr_1_value[6] == true) || (plr_1_value[0] == true && plr_1_value[4] == true && plr_1_value[8] == true) || (plr_1_value[4] == true && plr_1_value[1] == true && plr_1_value[7] == true) || (plr_1_value[0] == true && plr_1_value[1] == true && plr_1_value[2] == true) || (plr_1_value[5] == true && plr_1_value[8] == true && plr_1_value[2] == true) || (plr_1_value[6] == true && plr_1_value[4] == true && plr_1_value[2] == true))
                     {
                         MessageBox.Show(plr_1_name + " Win The game");
@@ -395,6 +418,7 @@ namespace tic_toc_toe
                     plr_2_value[5] = true;
                     bt6.Text = "O";
                     plr_1 = true;
+                    lb5.Text = "Play By " + plr_2_name;
                     if ((plr_2_value[0] == true && plr_2_value[1] == true && plr_2_value[2] == true) || (plr_2_value[3] == true && plr_2_value[4] == true && plr_2_value[5] == true) || (plr_2_value[6] == true && plr_2_value[7] == true && plr_2_value[8] == true) || (plr_2_value[0] == true && plr_2_value[3] == true && plr_2_value[6] == true) || (plr_2_value[0] == true && plr_2_value[4] == true && plr_2_value[8] == true) || (plr_2_value[4] == true && plr_2_value[1] == true && plr_2_value[7] == true) || (plr_2_value[0] == true && plr_2_value[1] == true && plr_2_value[2] == true) || (plr_2_value[5] == true && plr_2_value[8] == true && plr_2_value[2] == true) || (plr_2_value[6] == true && plr_2_value[4] == true && plr_2_value[2] == true))
                     {
                         MessageBox.Show(plr_2_name + " Win The game");

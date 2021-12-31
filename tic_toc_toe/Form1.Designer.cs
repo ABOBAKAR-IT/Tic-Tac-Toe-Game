@@ -44,11 +44,12 @@
             this.bt4 = new System.Windows.Forms.Button();
             this.bt7 = new System.Windows.Forms.Button();
             this.bt9 = new System.Windows.Forms.Button();
+            this.lb5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // sbt
             // 
-            this.sbt.Location = new System.Drawing.Point(148, 125);
+            this.sbt.Location = new System.Drawing.Point(151, 109);
             this.sbt.Name = "sbt";
             this.sbt.Size = new System.Drawing.Size(75, 23);
             this.sbt.TabIndex = 0;
@@ -62,6 +63,7 @@
             this.tb1.Name = "tb1";
             this.tb1.Size = new System.Drawing.Size(100, 20);
             this.tb1.TabIndex = 1;
+            this.tb1.Text = "ABOBAKAR";
             this.tb1.TextChanged += new System.EventHandler(this.TextBox1_TextChanged);
             // 
             // tb2
@@ -70,6 +72,7 @@
             this.tb2.Name = "tb2";
             this.tb2.Size = new System.Drawing.Size(100, 20);
             this.tb2.TabIndex = 2;
+            this.tb2.Text = "TAYYAB";
             this.tb2.TextChanged += new System.EventHandler(this.TextBox2_TextChanged);
             // 
             // label1
@@ -95,9 +98,9 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(54, 86);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(62, 13);
+            this.label3.Size = new System.Drawing.Size(63, 13);
             this.label3.TabIndex = 5;
-            this.label3.Text = "Selectes \'X\'";
+            this.label3.Text = "Selected \'X\'";
             // 
             // label4
             // 
@@ -110,7 +113,7 @@
             // 
             // bt6
             // 
-            this.bt6.Location = new System.Drawing.Point(213, 221);
+            this.bt6.Location = new System.Drawing.Point(213, 244);
             this.bt6.Name = "bt6";
             this.bt6.Size = new System.Drawing.Size(44, 31);
             this.bt6.TabIndex = 11;
@@ -119,7 +122,7 @@
             // 
             // bt1
             // 
-            this.bt1.Location = new System.Drawing.Point(113, 184);
+            this.bt1.Location = new System.Drawing.Point(113, 207);
             this.bt1.Name = "bt1";
             this.bt1.Size = new System.Drawing.Size(44, 31);
             this.bt1.TabIndex = 12;
@@ -128,7 +131,7 @@
             // 
             // bt2
             // 
-            this.bt2.Location = new System.Drawing.Point(163, 184);
+            this.bt2.Location = new System.Drawing.Point(163, 207);
             this.bt2.Name = "bt2";
             this.bt2.Size = new System.Drawing.Size(44, 31);
             this.bt2.TabIndex = 13;
@@ -137,7 +140,7 @@
             // 
             // bt3
             // 
-            this.bt3.Location = new System.Drawing.Point(213, 184);
+            this.bt3.Location = new System.Drawing.Point(213, 207);
             this.bt3.Name = "bt3";
             this.bt3.Size = new System.Drawing.Size(44, 31);
             this.bt3.TabIndex = 14;
@@ -146,7 +149,7 @@
             // 
             // bt5
             // 
-            this.bt5.Location = new System.Drawing.Point(163, 221);
+            this.bt5.Location = new System.Drawing.Point(163, 244);
             this.bt5.Name = "bt5";
             this.bt5.Size = new System.Drawing.Size(44, 31);
             this.bt5.TabIndex = 15;
@@ -155,7 +158,7 @@
             // 
             // bt8
             // 
-            this.bt8.Location = new System.Drawing.Point(163, 258);
+            this.bt8.Location = new System.Drawing.Point(163, 281);
             this.bt8.Name = "bt8";
             this.bt8.Size = new System.Drawing.Size(44, 31);
             this.bt8.TabIndex = 16;
@@ -164,7 +167,7 @@
             // 
             // bt4
             // 
-            this.bt4.Location = new System.Drawing.Point(113, 221);
+            this.bt4.Location = new System.Drawing.Point(113, 244);
             this.bt4.Name = "bt4";
             this.bt4.Size = new System.Drawing.Size(44, 31);
             this.bt4.TabIndex = 17;
@@ -173,7 +176,7 @@
             // 
             // bt7
             // 
-            this.bt7.Location = new System.Drawing.Point(113, 258);
+            this.bt7.Location = new System.Drawing.Point(113, 281);
             this.bt7.Name = "bt7";
             this.bt7.Size = new System.Drawing.Size(44, 31);
             this.bt7.TabIndex = 18;
@@ -182,18 +185,29 @@
             // 
             // bt9
             // 
-            this.bt9.Location = new System.Drawing.Point(210, 258);
+            this.bt9.Location = new System.Drawing.Point(210, 281);
             this.bt9.Name = "bt9";
             this.bt9.Size = new System.Drawing.Size(47, 31);
             this.bt9.TabIndex = 19;
             this.bt9.UseVisualStyleBackColor = true;
             this.bt9.Click += new System.EventHandler(this.Bt9_Click);
             // 
+            // lb5
+            // 
+            this.lb5.AutoSize = true;
+            this.lb5.Location = new System.Drawing.Point(148, 163);
+            this.lb5.Name = "lb5";
+            this.lb5.Size = new System.Drawing.Size(16, 13);
+            this.lb5.TabIndex = 20;
+            this.lb5.Text = "...";
+            this.lb5.Click += new System.EventHandler(this.Lb5_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(374, 450);
+            this.Controls.Add(this.lb5);
             this.Controls.Add(this.bt9);
             this.Controls.Add(this.bt7);
             this.Controls.Add(this.bt4);
@@ -236,6 +250,7 @@
         private System.Windows.Forms.Button bt4;
         private System.Windows.Forms.Button bt7;
         private System.Windows.Forms.Button bt9;
+        private System.Windows.Forms.Label lb5;
     }
 }
 
